@@ -1,6 +1,6 @@
 #!/usr/bin/python
 import os
-gelenAdres = input("Path Giriniz: ")
+gelenAdres = input("Dizin Yolu Giriniz: ")
 gelenUzanti = input("Uzanti Giriniz: ")
 dosyalar = os.listdir(gelenAdres)
 
