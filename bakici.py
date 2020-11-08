@@ -3,4 +3,4 @@
 import BakiciMod
 bakici = BakiciMod.BakiciMod()
 print bakici.konumunuz
-bakici.dosyalarGet()
+bakici.dosyalar_get()

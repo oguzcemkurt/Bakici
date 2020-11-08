@@ -10,18 +10,18 @@ class BakiciMod:
         self.konum = os.getcwd()
         self.konumunuz = "Konumunuz: " + self.konum
 
-    def dosyalarSet(self):
-        gelenAdres = raw_input("Kontrol edilecek dizin yolu giriniz: ")
+    def dosyalar_set(self):
+        gelen_adres = raw_input("Kontrol edilecek dizin yolu giriniz: ")
 
-        gelenUzanti = raw_input("Aranacak dosya uzantısı: ")
-        dosyalar = os.listdir(gelenAdres)
+        gelen_uzanti = raw_input("Aranacak dosya uzantısı: ")
+        dosyalar = os.listdir(gelen_adres)
 
         for dosya in dosyalar:
-            if dosya.endswith(gelenUzanti):
+            if dosya.endswith(gelen_uzanti):
                 self.uzantilarGrup.append(dosya)
 
-    def dosyalarGet(self):
-        self.dosyalarSet()
+    def dosyalar_get(self):
+        self.dosyalar_set()
 
-        for bulunanDosyalar in self.uzantilarGrup:
-            print bulunanDosyalar
+        for bulunan_dosyalar in self.uzantilarGrup:
+            print bulunan_dosyalar
