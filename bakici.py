@@ -2,11 +2,11 @@
 # coding=utf-8
 import BakiciMod
 
-Bakici = BakiciMod.BakiciMod()
+bakici = BakiciMod.BakiciMod()
 
-print Bakici.konumunuz
+print bakici.konumunuz
 
-Bakici.dosyalarGet()
+bakici.dosyalarGet()
 
 
 
