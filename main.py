@@ -1,7 +1,9 @@
 #!/usr/bin/python
 import os
-gelenAdres = input("Dizin Yolu Giriniz: ")
-gelenUzanti = input("Uzanti Giriniz: ")
+gelenAdres = raw_input("Dizin Yolu Giriniz: ")
+
+
+gelenUzanti = raw_input("Uzanti Giriniz: ")
 dosyalar = os.listdir(gelenAdres)
 
 for dosya in dosyalar:
